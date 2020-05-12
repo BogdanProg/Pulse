@@ -29,6 +29,9 @@
         &__inner {
             width: 100%;
         }
+       .slick-slide img {
+           width: 100%;
+       }
     }
     .feed {
         &__img {
@@ -281,7 +284,7 @@
     }
     .modal {
         min-height: 320px;
-        padding: 0;
+        padding: 25px;
         &__subtitle {
             font-size: 14px;
         }
@@ -299,7 +302,7 @@
         }
     }
     a.pageup {
-        right: 3px;
+        right: 8px;
         width: 20px;
         height: 20px;   
     }
